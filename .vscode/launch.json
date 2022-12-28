@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-MultiDatabasesSpringBootApplication<multi-databases-spring-boot>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.example.multidatabasesspringboot.MultiDatabasesSpringBootApplication",
+      "projectName": "multi-databases-spring-boot",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-MultiDatabasesSpringBootApplication<agpv-server>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.example.multidatabasesspringboot.MultiDatabasesSpringBootApplication",
+      "projectName": "agpv-server",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
